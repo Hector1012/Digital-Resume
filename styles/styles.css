@@ -1,0 +1,111 @@
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius:50%;   
+  }
+
+  body {
+    background-image: url(../images/background.jpg);
+  }
+
+ .img-container {
+    background-image: url(../images/head.jpg);
+    height: 638px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  cornsilk;
+ }
+
+ a {
+    text-align: center;
+    color: cornsilk;
+    display: block;
+ }
+
+ .icon {
+    width: 100px;
+ }
+
+ .progress {
+    width: 300px;
+    height: 30px;
+    background: #999;
+    border-radius: 5px;
+ }
+
+.progress-fill {
+    width: 52%;
+    height: 100%;
+    background: green;
+}
+
+.progress2 {
+    width: 300px;
+    height: 30px;
+    background: #999;
+    border-radius: 5px;
+}
+
+.progress-fill2 {
+    width: 75%;
+    height: 100%;
+    background: green; 
+}
+
+.progress3 {
+    width: 300px;
+    height: 30px;
+    background: #999;
+    border-radius: 5px;
+}
+
+.progress-fill3 {
+    width: 90%;
+    height: 100%;
+    background: green;   
+}
+
+section   {    
+    border: 2px solid black;
+    border-style: groove;
+    border-radius: 1em;
+    height: 400px;
+
+    display: grid;
+    grid-template-columns: 32% 32% 32% 10%;
+    grid-column-gap: 1em;  
+}
+
+h2 {
+    border-style: double;
+    border-bottom: 2px;
+    border-radius: 1rem 2rem;
+    animation-name: initial;
+}
+
+article, .to-top {
+    right: 80px;
+    bottom: 80px;
+    position: fixed;
+    font-size: xx-large;
+    z-index: 9;
+}
+
+.to-top a{
+    cursor: pointer;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+form {
+    padding: auto;
+    flex-direction: row;   
+}
+
+h3 {
+    text-decoration: underline;
+}
+
