@@ -8,7 +8,7 @@ img {
     background-image: url(../images/background.jpg);
   }
 
- .img-container {
+ .img-hero {
     background-image: url(../images/head.jpg);
     height: 638px;
     background-position: center;
@@ -81,7 +81,7 @@ h2 {
     border-style: double;
     border-bottom: 2px;
     border-radius: 1rem 2rem;
-    animation-name: initial;
+    
 }
 
 article, .to-top {
